@@ -1,0 +1,30 @@
+.NavBox ul {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none;
+    min-width: 100px;
+    color: white;
+}
+.Line {
+    width: 80%;
+    height: 1px;
+    background-color: hsl(257, 7%, 63%);
+}
+.NavBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 100;
+    top: 12%;
+    left: 50%;
+    width: 80%;
+    min-height: 320px;
+    transform: translateX(-50%);
+    background-color: hsl(257, 27%, 26%);
+}

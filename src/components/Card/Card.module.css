@@ -1,0 +1,85 @@
+.Card {
+    width:85%;
+    min-height: 250px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.Icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background-color: hsl(257, 27%, 26%);
+}
+.Title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.Description {
+    color: hsl(0, 0%, 75%);
+    text-align: center;
+    padding: 5px 15px;
+}
+.Card:nth-child(1) {
+    margin-top: 70px;
+}
+.Card:nth-last-child(1) {
+    margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+    .Title {
+        text-align: left;
+        font-size: 16px;
+        padding: 5px 15px;
+    }
+    .Description {
+        text-align: left;
+        font-size: 12px;
+    }
+    .Card {
+        width: 30%;
+        min-height: 200px;
+    }
+    .Icon {
+        left: 10%;
+        width: 60px;
+        height: 60px;
+        transform: translateX(0);
+    }
+    .Icon img {
+        width: 60%;
+    }
+
+    .Card:nth-child(1) {
+        margin-top: 0;
+    }
+    .Card:nth-of-type(1) {
+        margin-top: -10%;
+    }
+    .Card:nth-last-child(1) {
+        margin-bottom: -10%;
+    }
+}
+
+@media (min-width: 1366px) {
+    .Card {
+        width: 300px;
+        height: 230px;
+    }
+    .Title {
+        font-size: 20px;
+    }
+    .Description {
+        font-size: 14px;
+    }
+}

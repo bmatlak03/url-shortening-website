@@ -1,0 +1,53 @@
+.Link {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height: 50px;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.NewUrl {
+    display: block;
+}
+.OldUrl {
+    display: none;
+}
+.Copy {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    margin-left: 10px;
+    min-width: 60px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 10px;
+    transition: .2s;
+    cursor: pointer;
+}
+.Copy:hover {
+    opacity: 0.6;
+}
+.Box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+@media (min-width: 1024px) {
+    .OldUrl {
+        display: block;
+        width: 100%;
+    }
+    .Box {
+        justify-content: flex-end;
+    }
+    .Copy {
+        margin-right: 15px;
+    }
+}

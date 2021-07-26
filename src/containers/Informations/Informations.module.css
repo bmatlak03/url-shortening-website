@@ -1,0 +1,78 @@
+.Informations {
+    padding-top: 6rem;
+    background-color:hsl(230, 25%, 95%) ;
+    position: relative;
+}
+.AdvancedStats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.Title {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+.Description {
+    text-align: center;
+    width: 90%;
+    font-size: 18px;
+    color: hsl(0, 0%, 75%);
+    padding: 5px;
+}
+.Cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.Line {
+    background-color: hsl(180, 66%, 49%);
+    height: 80px;
+    width: 10px;
+}
+.Boost {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    background-color: hsl(257, 27%, 26%);
+    background-image: url('../../images/bg-boost-mobile.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Boost .Title {
+    color: white;
+    margin-bottom: 15px;
+}
+@media (min-width: 768px) {
+    .AdvancedStats {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .Cards {
+        margin-right: 40px;
+        flex-direction: row;
+        justify-content: center;
+        height: 400px;
+    }
+    .Line {
+        height: 6px;
+        width: 20px;
+    }
+    .Boost {
+        height: 250px;
+        background-image: url('../../images/bg-boost-desktop.svg');
+        background-position: center;
+    }
+}
+@media (min-width: 1366px) {
+    .Description {
+        width: 70%;
+    }
+    .Boost {
+        margin-top: 100px;
+    }
+}

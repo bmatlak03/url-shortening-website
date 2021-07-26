@@ -1,0 +1,26 @@
+.Logo img{
+    width: 100%;
+    display: block;
+}
+.Logo {
+    width: 45%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.Logo img path {
+    fill: #fff;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .Logo {
+        width: 20%;
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 1366px) {
+    .Logo {
+        width: 15%;
+    }
+}

@@ -1,0 +1,38 @@
+.DesktopNavigation {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+    .MobileNavigation {
+        display: none;
+    }
+    .DesktopNavigation {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+    .Links {
+        justify-content: flex-start;
+    }
+    .Links li, .Auth li {
+        margin-left: 15px;
+        color: hsl(0, 0%, 75%);
+        transition: .2s;
+        cursor: pointer;
+    }
+    .Links li:hover, .Auth li:hover {
+        color: hsl(180, 66%, 49%);
+    }
+    .Auth {
+        /* display: flex; */
+        justify-content: flex-end;
+    }
+}

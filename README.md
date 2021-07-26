@@ -1,3 +1,9 @@
+###### HOW TO RUN THIS PROJECT
+
+1. Extract files or clone repository to any folder
+2. Run command "npm install"
+3. Run command "npm start"
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
