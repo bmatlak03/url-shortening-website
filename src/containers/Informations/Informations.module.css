@@ -70,7 +70,8 @@
 }
 @media (min-width: 1366px) {
     .Description {
-        width: 70%;
+        width: 65%;
+        margin-bottom: 20px;
     }
     .Boost {
         margin-top: 100px;
